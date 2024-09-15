@@ -2,3 +2,19 @@ spring:
   application:
     name: Project Template
 
+  datasource:
+    username: user
+    password: password
+    url: jdbc:postgresql://database:5432/project-template
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+      properties:
+        jakarta.persistence.query.timeout: 5000
+        hibernate:
+          order_inserts: true
+          order_updates: true
+          jdbc.batch_size: 500
