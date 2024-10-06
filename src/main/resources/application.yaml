@@ -1,6 +1,6 @@
 spring:
   application:
-    name: Project Template
+    name: SpringBoot Project Template
 
   datasource:
     username: user
