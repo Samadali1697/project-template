@@ -18,3 +18,9 @@ spring:
           order_inserts: true
           order_updates: true
           jdbc.batch_size: 500
+
+  liquibase:
+    change-log: file:/app/database/changelog.xml
+    enabled: true
+    drop-first: false
+    default-schema: public
