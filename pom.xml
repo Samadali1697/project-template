@@ -8,9 +8,9 @@
 		<version>3.2.10-SNAPSHOT</version>
 	</parent>
 	<groupId>me.samadali</groupId>
-	<artifactId>project-template</artifactId>
+	<artifactId>springboot-project-template</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Project Template</name>
+	<name>SpringBoot Project Template</name>
 	<description>A dockerized template project</description>
 	<url/>
 	<licenses>
