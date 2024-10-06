@@ -18,6 +18,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 COPY --from=builder /app/target/project-template-0.0.1-SNAPSHOT.jar app.jar
+COPY --chown=1001:80 /database /app/database
 
 EXPOSE 8080
 
